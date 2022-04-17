@@ -79,7 +79,7 @@
               if (document.getElementById('birthday').value.length == 0) {
                 document.getElementById('error').hidden = false;
               }
-              else { window.location = "http://api.whatsapp.com/send/?phone=14158779129&text=" + document.getElementById('birthday').value +" | "+  document.getElementById('slot').value}
+              else { window.location = "http://api.whatsapp.com/send/?phone=18632926346&text=" + document.getElementById('birthday').value +" | "+  document.getElementById('slot').value}
             }
           </script>
         </div>
@@ -94,7 +94,17 @@
     </footer>
   </div>
   <!-- ./wrapper -->
-
+  <script>
+    caches.open(cacheName).then(function(cache) {
+      return cache.addAll(
+        [
+          'https://logy.ai/cdn/dash/plugins/fontawesome-free/css/all.min.css',
+          'https://logy.ai/cdn/dash/dist/css/adminlte.min.css',
+          'index.html'
+        ]
+      );
+    }
+  </script>
 
 
   <script src="https://logy.ai/cdn/dash/dist/js/adminlte.js"></script>
