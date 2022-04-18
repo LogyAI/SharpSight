@@ -82,7 +82,7 @@
               else { 
                 date_val = new Date(document.getElementById('birthday').value);
                 window.location = "http://api.whatsapp.com/send/?phone=18632926346&text=" + date_val.toLocaleDateString('en-GB') +" | "+  document.getElementById('slot').value
-            }
+            }}
           </script>
         </div>
 
@@ -96,17 +96,6 @@
     </footer>
   </div>
   <!-- ./wrapper -->
-  <script>
-    caches.open(cacheName).then(function(cache) {
-      return cache.addAll(
-        [
-          'https://logy.ai/cdn/dash/plugins/fontawesome-free/css/all.min.css',
-          'https://logy.ai/cdn/dash/dist/css/adminlte.min.css',
-          'index.html'
-        ]
-      );
-    }
-  </script>
 
 
   <script src="https://logy.ai/cdn/dash/dist/js/adminlte.js"></script>
