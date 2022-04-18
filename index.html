@@ -79,7 +79,8 @@
               if (document.getElementById('birthday').value.length == 0) {
                 document.getElementById('error').hidden = false;
               }
-              else { window.location = "http://api.whatsapp.com/send/?phone=18632926346&text=" + document.getElementById('birthday').value +" | "+  document.getElementById('slot').value}
+              else { date_val = new Date(document.getElementById('birthday').value);
+                window.location = "http://api.whatsapp.com/send/?phone=18632926346&text=" + date_val.toLocaleDateString('en-GB') +" | "+  document.getElementById('slot').value}}
             }
           </script>
         </div>
