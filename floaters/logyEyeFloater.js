@@ -56,7 +56,7 @@
 //     floaterInstructions.style.display='none'
 // })
 
-document.body.innerHTML += `<a href="" target='_blank'>
+document.body.innerHTML += `<a href="https://logy.ai/SharpSight" target='_blank'>
         <div 
         id="floaterMain"
         >
