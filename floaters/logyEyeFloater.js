@@ -84,9 +84,9 @@ document.body.innerHTML += `<a href="" target='_blank'>
                 position: absolute;
                 background: linear-gradient(180deg, rgba(22, 105, 55, 0) 0%, rgba(22, 105, 55, 0.25) 100%);
                 height: 40px;
-                width: 46px;
-                top: 100px;
-                left: 47px;
+                width: 35px;
+                top: 210px;
+                left: 53px;
                 z-index: 0;
                 border-bottom: solid 1px #166937;
                 animation: animate 2s infinite;
